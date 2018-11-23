@@ -1,0 +1,35 @@
+body{
+    background-image: url(../../img/cocina.jpg);
+}
+div{
+    padding: 5px;
+    border: 0px solid black;
+}
+i {
+  font-size: 30px;
+}
+li,a{
+    color: black;
+}
+.mainOne{
+    background: rgba(89, 125, 133, 0.6);
+}
+.comentariosBorde{
+    border: 1px dashed blue;
+    border-radius: 15px;
+}
+.fotosGrandes{
+    border-radius: 15px;
+    padding: 5px;
+}
+@media (min-width:421px){
+    .bordeInferior{
+        border-bottom: 1px solid white;
+    }
+    .bordeDerecho{
+        border-right: 1px solid white;
+    }
+    .bordeIzquierdo{
+        border-left: 1px solid white;
+    }
+}
